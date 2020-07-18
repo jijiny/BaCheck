@@ -1,9 +1,6 @@
 # Created by https://www.gitignore.io/api/java,linux,maven,gradle,windows,eclipse,java-web
 # Edit at https://www.gitignore.io/?templates=java,linux,maven,gradle,windows,eclipse,java-web
 
-#DB
-root-context.xml
-
 ### Eclipse ###
 .metadata
 bin/
@@ -74,6 +71,9 @@ local.properties
 .sts4-cache/
 
 ### Java ###
+#DB
+root-context.xml
+
 # Compiled class file
 *.class
 
