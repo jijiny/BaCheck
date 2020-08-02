@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 마이바티스 3 Mapper DOCTYPE -->
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+<mapper namespace="com.basang.BaCheck.dao.face.LoginDao">
+
+	<select id="loginCheck" parameterType="com.basang.BaCheck.dto.User" resultType="int">
+		SELECT COUNT(*) FROM USER WHERE user_name=#{user_name} AND user_code=#{user_code}
+	</select>
+	
+</mapper>  
