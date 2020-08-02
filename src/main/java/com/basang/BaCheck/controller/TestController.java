@@ -28,5 +28,6 @@ public class TestController {
 		logger.info(map.toString());
 		
 		model.addAttribute("map", map);
+		
 	}
 }
